@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "easton.sharedechest.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "EnderChestBlockMixin",
+    "MinecraftServerMixin",
+    "ServerAccessor"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
